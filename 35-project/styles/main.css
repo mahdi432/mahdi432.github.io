@@ -173,6 +173,12 @@ input[type='checkbox'] {
     .car_item img {
         left: 30px;
     }
+    .header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 }
 @media only screen and (max-width:530px) {
     .cars_section {
@@ -185,4 +191,10 @@ input[type='checkbox'] {
     .btn {
         padding: 10px 0px;
     }
+     .header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 }
